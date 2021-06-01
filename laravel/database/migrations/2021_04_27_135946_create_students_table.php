@@ -30,6 +30,7 @@ class CreateStudentsTable extends Migration
             $table->string('facebook');
             $table->string('instagram');
             $table->string('youtube');
+            $table->string('tiktok');
 
             $table->softDeletes();
             $table->timestamps();
